@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your ultimate online toolkit for image and PDF tools. Compress, convert, and optimize files with ease.">
+    <meta name="keywords" content="image tools, PDF tools, online tools, compress images, optimize PDFs">
+    <meta name="author" content="Your Name">
+    <title>Online Tools - Image & PDF Toolkit</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Main Content */
+        main {
+            padding: 2rem 1rem;
+            width: 100%;
+            max-width: 1200px;
+        }
+
+        /* Tools Section */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .tool-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .tool-card h2 {
+            font-size: 1.5rem;
+            margin: 0 0 1rem;
+        }
+
+        .tool-card p {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .tool-card a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #fff;
+            color: #2575fc;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .tool-card a:hover {
+            background: #f0f0f0;
+            color: #6a11cb;
+        }
+
+        /* Call-to-Action Section */
+        .cta {
+            text-align: center;
+            margin: 4rem 0;
+        }
+
+        .cta h2 {
+            font-size: 2rem;
+            margin: 0 0 1rem;
+        }
+
+        .cta p {
+            font-size: 1rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0 0 2rem;
+        }
+
+        .cta a {
+            padding: 1rem 2rem;
+            background: #fff;
+            color: #2575fc;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        .cta a:hover {
+            background: #f0f0f0;
+            color: #6a11cb;
+        }
+
+        /* Advertisement Section */
+        .ad-section {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            text-align: center;
+            width: 100%;
+            margin-top: auto;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 -4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Online Tools</h1>
+        <p>Your ultimate toolkit for image and PDF tools. Compress, convert, and optimize files with ease.</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Tools Section -->
+        <section class="tools-grid">
+            <a href="/img-compress.html"tool-card-link">
+          <div class="tool-card">
+        <h2>PDF Merger</h2>
+        <p>Combine multiple PDF files into one.</p>
+        <span class="tool-button">Use Tool</span>
+           </div>
+           </a>
+            <div class="tool-card">
+                <h2>PDF Merger</h2>
+                <p>Combine multiple PDF files into one.</p>
+                <a href="/pdf-merger">Use Tool</a>
+            </div>
+            <div class="tool-card">
+                <h2>Image Converter</h2>
+                <p>Convert images to different formats like JPG, PNG, and more.</p>
+                <a href="/image-converter">Use Tool</a>
+            </div>
+            <div class="tool-card">
+                <h2>PDF Compressor</h2>
+                <p>Reduce the size of your PDF files without losing quality.</p>
+                <a href="/pdf-compressor">Use Tool</a>
+            </div>
+        </section>
+
+        <!-- Call-to-Action Section -->
+        <section class="cta">
+            <h2>Ready to Optimize Your Files?</h2>
+            <p>Explore our full range of tools to make your work easier and faster.</p>
+            <a href="/tools">Explore All Tools</a>
+        </section>
+
+        <!-- Advertisement Section -->
+        <section class="ad-section">
+            <!-- Google AdSense Ad Unit -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_AD_UNIT_ID" crossorigin="anonymous"></script>
+            <!-- Ad Unit -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_AD_UNIT_ID"
+                 data-ad-slot="YOUR_AD_SLOT_ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Online Tools. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
